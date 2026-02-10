@@ -7,8 +7,8 @@ function ResponseButtons({ show }) {
   const handleResponse = (response) => {
     const phoneNumber = '254718864578';
     const message = response === 'yes' 
-      ? 'YES! I would love to be with you! ' + String.fromCodePoint(0x2764, 0xFE0F)
-      : 'I need more time to think about it... ' + String.fromCodePoint(0x1F914)
+      ? 'YES! I would love to be with you! <3'
+      : 'I need more time to think about it...'
     
     window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, '_blank');
   };
