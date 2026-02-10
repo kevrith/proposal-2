@@ -1,16 +1,18 @@
 function ProposalMessage() {
+  const herName = "Sheila"; // Replace with her actual name
+  
   return (
     <div className="proposal-message">
       <p className="main-text">
-        From the moment I met you, my world became brighter. Your smile lights up my darkest days, 
+        <strong>{herName},</strong> from the moment I met you, my world became brighter. Your smile lights up my darkest days, 
         and your laughter is the sweetest melody I've ever heard.
       </p>
       <p className="main-text">
-        Every moment with you feels like a beautiful dream I never want to wake up from. 
-        I would like to spend a moment with you..
+        I can't stop thinking about how amazing it would be to spend quality time with you.
+        Let's create some unforgettable memories together.
       </p>
       <p className="highlight-text">
-        Would you make me the happiest man by having a moment 💕
+        Would you give me the chance to make you smile and share a special moment? 💕
       </p>
     </div>
   );
